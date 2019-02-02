@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 /******main menu********/
 nav .navbar-brand img {
   width: 70%;
+transition: all 450ms;
 }
 
 .navbar-nav .nav-item .nav-link{
@@ -63,7 +64,9 @@ nav .navbar-brand img {
 	opacity:0.75;
 	z-index:9999;
 }
-
+.stick .navbar .navbar-brand img{
+	width:50%;
+}
 /***********portfolio page************/
 
 .project_list .mix{
